@@ -22,11 +22,12 @@ struct ContentView: View {
                     .foregroundColor(.black)
                 HStack {
                     Text("Bronx, NY")
-                        .font(.subheadline)
                     Spacer()
                     Text("11101")
-                        .font(.subheadline)
                 }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                
                 Divider()
                     Text("About Retro Fitness")
                         .font(.title2)
