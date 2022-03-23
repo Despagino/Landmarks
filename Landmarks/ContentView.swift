@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             MapView()
-                .frame(height: 300)
+                .frame(height: 400)
                 .ignoresSafeArea(edges: .top)
             CircleImage()
                 .offset(y: -130)
@@ -27,6 +27,10 @@ struct ContentView: View {
                     Text("11101")
                         .font(.subheadline)
                 }
+                Divider()
+                    Text("About Retro Fitness")
+                        .font(.title2)
+                    Text("Best gym in the city")
             }
             .padding()
             Spacer()
