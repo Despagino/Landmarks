@@ -13,6 +13,8 @@
 		D3595D0827EBAABE00B5143D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3595D0727EBAABE00B5143D /* Preview Assets.xcassets */; };
 		D3595D0F27EBB0CE00B5143D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3595D0E27EBB0CE00B5143D /* CircleImage.swift */; };
 		D3595D1127EBB2C200B5143D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3595D1027EBB2C200B5143D /* MapView.swift */; };
+		D3595D1427EBB8E800B5143D /* Images in Resources */ = {isa = PBXBuildFile; fileRef = D3595D1227EBB8E800B5143D /* Images */; };
+		D3595D1527EBB8E800B5143D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = D3595D1327EBB8E800B5143D /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		D3595D0727EBAABE00B5143D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3595D0E27EBB0CE00B5143D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D3595D1027EBB2C200B5143D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D3595D1227EBB8E800B5143D /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		D3595D1327EBB8E800B5143D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				D3595D0627EBAABE00B5143D /* Preview Content */,
 				D3595D0E27EBB0CE00B5143D /* CircleImage.swift */,
 				D3595D1027EBB2C200B5143D /* MapView.swift */,
+				D3595D1227EBB8E800B5143D /* Images */,
+				D3595D1327EBB8E800B5143D /* landmarkData.json */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -132,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3595D0827EBAABE00B5143D /* Preview Assets.xcassets in Resources */,
+				D3595D1527EBB8E800B5143D /* landmarkData.json in Resources */,
+				D3595D1427EBB8E800B5143D /* Images in Resources */,
 				D3595D0527EBAABE00B5143D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
