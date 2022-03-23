@@ -22,4 +22,11 @@ struct Landmark: Codable {
         Image(imageName)
     }
     
+    private var coordinates: Coordinates
+    
+}
+
+struct Coordinates: Codable {
+        var latitude: Double
+        var longitude: Double
 }
