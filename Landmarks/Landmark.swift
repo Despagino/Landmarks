@@ -6,15 +6,20 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Landmark: Codable {
     
     let name: String
-    let category: String
     let city: String
     let state: String
     let id: Int
     let park: String
     let description: String
+    
+    private var imageName: String
+    var image: Image {
+        Image(imageName)
+    }
     
 }
