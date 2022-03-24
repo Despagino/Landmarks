@@ -50,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32AEEAE27EC1D0500BDD523 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3595D0727EBAABE00B5143D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D3595CF427EBAABD00B5143D = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +80,7 @@
 				D3595D0027EBAABD00B5143D /* LandmarksApp.swift */,
 				D3595D1B27EBC0E000B5143D /* Model */,
 				D3595D1A27EBC0D700B5143D /* Views */,
+				D32AEEAE27EC1D0500BDD523 /* Preview Content */,
 				D3595D1C27EBC10400B5143D /* Resources */,
 			);
 			path = Landmarks;
@@ -80,7 +89,6 @@
 		D3595D0627EBAABE00B5143D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D3595D0727EBAABE00B5143D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
