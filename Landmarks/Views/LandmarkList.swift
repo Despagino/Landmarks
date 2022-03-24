@@ -9,7 +9,9 @@ import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        List(landmarks, )
+        List(landmarks) { landmark in
+            LandmarkRow(landmark: landmark)
+        }
     }
 }
 
