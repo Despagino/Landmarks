@@ -30,9 +30,12 @@ struct LandmarkDetail: View {
                     .padding(.bottom, -130)
                 
                 VStack (alignment: .leading) {
-                    Text(landmark.name)
-                        .font(.largeTitle)
-                        .foregroundColor(.black)
+                    HStack {
+                        Text(landmark.name)
+                            .font(.largeTitle)
+                            .foregroundColor(.black)
+                        FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    }
                     HStack {
                         Text(landmark.park)
                         Spacer()
