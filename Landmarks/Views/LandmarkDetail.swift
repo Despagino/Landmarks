@@ -12,7 +12,6 @@ struct LandmarkDetail: View {
     var landmark: Landmark
     
     var body: some View {
-        
             ScrollView {
                 MapView(coordinates: landmark.locationCoordinate)
                     .ignoresSafeArea(edges: .top)
@@ -42,6 +41,7 @@ struct LandmarkDetail: View {
                 }
                 .padding()
             }
+            .ignoresSafeArea(edges: .top)
         }
     }
 
