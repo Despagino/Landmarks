@@ -12,7 +12,7 @@ struct CircleImage: View {
     var image: Image
     
     var body: some View {
-        Image("retro")
+        image
             .resizable()
             .scaledToFit()
             .clipShape(Circle())

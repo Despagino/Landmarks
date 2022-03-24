@@ -19,6 +19,9 @@ struct MapView: View {
     
     var body: some View {
         Map(coordinateRegion: $region)
+            .onAppear {
+                setRegion(coordinates)
+            }
     }
     
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
